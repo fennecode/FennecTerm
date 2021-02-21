@@ -1,0 +1,2 @@
+# FennecTerm
+ My CLI
