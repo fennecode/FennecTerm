@@ -27,6 +27,7 @@ int main() {
         }
         
         title.close();
+        
     } else {
 
         cout << "Was unable to print title. Continuing... " << endl;
