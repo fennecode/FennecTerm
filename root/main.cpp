@@ -1,8 +1,8 @@
 /* 
-My next major project, FennecTerm. Current Version 0.1
+My next major project, FennecTerm. Current Version 0.2
 Created by (still educationg developer) Collin, aka. "Fennecode".
 Notes: Currently a beginning to a command-line interface, may evolve visions down the road. 
-[ !! PRIVATE GITHUB REPO, CLOSED SOURCE SOFTWARE !! ]
+[ FORK AS YOU WISH ]
 */
 
 #include <iostream>
@@ -35,10 +35,15 @@ int main() {
     }
 
     string i;
+    
+
+    // User Interaction Begins Below
 
     cout << "=> ";
     cin >> i;
     cout << endl;
+
+
 
     // other interactions to come soon.
 
