@@ -1,5 +1,5 @@
-###### FennecTerm (v0.2a)
-*My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!*
+# FennecTerm (v0.2a)
+###### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
 
 
 * Created by (still educating developer) Collin, aka. "Fennecode".
