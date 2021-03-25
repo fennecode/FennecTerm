@@ -8,15 +8,18 @@ Notes: Currently a beginning to a command-line interface, may evolve visions dow
 #include <iostream>
 #include <string>
 #include <fstream>
+#include "main.h"
 using namespace std;
 
 #define NewL '\n'
 
+int calcval(int val);
+
 int main() {
 
+    // Calling for Title
     string line;
     ifstream title ("title.txt");
-
     if(title.is_open () ) {
 
         while (! title.eof() ) {
@@ -33,18 +36,15 @@ int main() {
         cout << "Was unable to print title. Continuing... " << endl;
 
     }
-
     string i;
-    
+
 
     // User Interaction Begins Below
 
     cout << "=> ";
-    cin >> i;
-    cout << endl;
-
-
-
     // other interactions to come soon.
+
+
+    cin.get(); 
 
 }
