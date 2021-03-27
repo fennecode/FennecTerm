@@ -41,7 +41,25 @@ int main() {
 
     // User Interaction Begins Below
 
+    string temp;
+
+loop:
     cout << "=> ";
+    cin >> temp;
+    if(temp != NULL) {
+
+        // Jumps to user specified application (needs work)
+
+    } if-else() {
+
+        // .cpp (Application) Extension Verification
+        
+    } else {
+
+        goto loop;
+        
+    }
+
     // other interactions to come soon.
 
 
