@@ -1,4 +1,4 @@
-# FennecTerm (v0.2a)
+# FennecTerm (v0.2.1-a)
 ###### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
 
 
