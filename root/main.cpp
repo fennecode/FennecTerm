@@ -1,5 +1,5 @@
 /* 
-My next major project, FennecTerm. Current Version 0.2.1-b
+My next major project, FennecTerm. Current Version 0.2.2
 Created by (still educationg developer) Collin, aka. "Fennecode".
 Notes: Currently a beginning to a command-line interface, may evolve visions down the road. 
 [ FORK AS YOU WISH ]
@@ -19,11 +19,12 @@ int main() {
     cout << "┌────────────────────────┐" << endl;
     cout << "│                        │" << endl;
     cout << "│    ⚝ FennecTerm ⚝      │" << endl;
-    cout << "│     v0.2.1-b [wip]     │" << endl;
-    cout << "│      NEEDS REPAIR      │" << endl;
+    cout << "│        v0.2.2          │" << endl;
+    cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
     cout << "Developed by Collin J. Reeves" << endl;
+    cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << NewL;
 
     // User Interaction Begins Below
@@ -32,8 +33,31 @@ int main() {
 
 
 loop:
-    cout << "=> ";
+    cout << "FennecTerm >> ";
     cin >> temp;
+
+    if(temp == "help") {
+
+    string line;
+    ifstream title ("title.txt");
+
+    if(title.is_open () ) {
+
+        while (! title.eof() ) {
+
+            getline (title,line);
+            cout << line << endl;
+
+        }
+
+        title.close();
+    } else {
+
+        cout << "Was unable to print title. Continuing... " << endl;
+
+    }
+        
+    }
 
     if(temp == "calc") {
 
@@ -48,26 +72,29 @@ loop:
         int calc_b;
         int calc_c; // result
 
-        cout << "> ";
+        cout << "Number >> ";
         cin >> calc_a;
         cout << NewL;
 
 calcpoint_a:
-        cout << "Operator (+, -, *, /)> ";
+        cout << "Operator (+, -, *, /)" << NewL << ">> ";
         cin >> calc_o;
         cout << NewL;
     
         if(calc_o == '+') {
 
 calcpoint_b:
-            cout << "> ";
+            cout << "Number >> ";
             cin >> calc_b;
 
             if(calc_b >= 0) {
 
                 cout << NewL;
                 calc_c = (calc_a, calc_b);
-                cout << "Final result: " << calc_c << endl;
+                calc_c = add(calc_a, calc_b);
+                cout << "Final Result >> " << calc_c << endl;
+                cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
+                goto loop;
 
             } else {
 
@@ -82,14 +109,16 @@ calcpoint_b:
         if(calc_o == '-') {
 
 calcpoint_c:
-            cout << "> ";
+            cout << "Number >> ";
             cin >> calc_b;
 
             if(calc_b >= 0) {
 
                 cout << NewL;
                 calc_c = sub(calc_a, calc_b);
-                cout << "Final result: " << calc_c << endl;
+                cout << "Final Result >> " << calc_c << endl;
+                cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
+                goto loop;
 
             } else {
 
@@ -103,14 +132,16 @@ calcpoint_c:
         if(calc_o == '*') {
 
 calcpoint_d:
-            cout << "> ";
+            cout << "Number >> ";
             cin >> calc_b;
 
             if(calc_b >= 0) {
 
                 cout << NewL;
                 calc_c = multiply(calc_a, calc_b);
-                cout << "Final result: " << calc_c << endl;
+                cout << "Final Result >> " << calc_c << endl;
+                cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
+                goto loop;
 
             } else {
 
@@ -124,14 +155,16 @@ calcpoint_d:
         if(calc_o == '/') {
 
 calcpoint_e:
-            cout << "> ";
+            cout << "Number >> ";
             cin >> calc_b;
 
             if(calc_b >= 0) {
 
                 cout << NewL;
                 calc_c = divide(calc_a, calc_b);
-                cout << "Final result: " << calc_c << endl;
+                cout << "Final Result >> " << calc_c << endl;
+                cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
+                goto loop;
 
             } else {
 
@@ -140,11 +173,17 @@ calcpoint_e:
 
             }
         
+        } else if(calc_o == 'x') {
+
+            cout << "Returning to FennecTerm..." << NewL << endl;
+            goto loop;
+
         } else {
 
-            cout << NewL << "Please enter a valid Operator! " << endl;
+            cout << "!!! Please re-enter a valid Operator !!! " << endl;
+            cout << "If you'd wish to exit, press 'x' now! " << NewL << endl;
             goto calcpoint_a;
-
+            
         }
 
     } else {
@@ -154,9 +193,8 @@ calcpoint_e:
         
     }
 
+
     // other interactions to come soon.
-
-
     cin.get(); 
 
 }

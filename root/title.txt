@@ -1,7 +1,6 @@
 ┌────────────────────────┐
-│                        │
-│    ⚝ FennecTerm ⚝      │
-│      v0.2 [wip]        │
-│                        │
+│  ? FennecTerm Help ?   │
 ┕━━━━━━━━━━━━━━━━━━━━━━━━┙
->> Developed by: Collin
+User Commands:
+'calc'
+More to come!
