@@ -39,7 +39,7 @@ loop:
     if(temp == "help") {
 
     string line;
-    ifstream title ("title.txt");
+    ifstream title ("help.txt");
 
     if(title.is_open () ) {
 
