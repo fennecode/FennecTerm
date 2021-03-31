@@ -7,7 +7,7 @@ Created by (still educationg developer) Collin, aka. "Fennecode".
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "includes/calc.h"
+#include "includes/calc.cpp"
 using namespace std;
 
 #define NewL '\n'
@@ -50,7 +50,7 @@ loop:
             }
 
             title.close();
-            
+
         } else {
 
             cout << "Was unable to print title. Continuing... " << endl;
