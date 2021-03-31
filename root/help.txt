@@ -1,6 +1,7 @@
 ┌────────────────────────┐
 │  ? FennecTerm Help ?   │
 ┕━━━━━━━━━━━━━━━━━━━━━━━━┙
-User Commands:
-'calc'
+!!! User Commands !!!
+Simple Calculator >> calc
+
 More to come!
