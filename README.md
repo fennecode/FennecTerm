@@ -1,8 +1,9 @@
-# FennecTerm (v0.2.1-b)
+# FennecTerm (v0.2.2)
 ###### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
 
 
 *Created by (still educating developer) Collin, aka. "Fennec/FennecFemboi/Fennecode".*
 
 ## Changelog
-- Added `calc` integration (currently broken). 
+- Added full calculator app functionality.
+- Added a help menu for command convenience.
