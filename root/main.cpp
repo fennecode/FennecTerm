@@ -23,7 +23,7 @@ int main() {
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
-    cout << "Developed by Collin J. Reeves" << endl;
+    cout << "Open-Source Developed by Collin" << endl;
     cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << NewL;
 
