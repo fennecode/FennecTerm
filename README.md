@@ -2,6 +2,7 @@
 ###### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
 
 
-*Created by (still educating developer) Collin, aka. "Fennecode".*
+*Created by (still educating developer) Collin, aka. "Fennec/FennecFemboi/Fennecode".*
 
-* Notes: Currently a beginning to a command-line interface, may evolve visions down the road. 
+## Changelog
+- Added `calc` integration (currently broken). Though needs work for functionality as compilation fails.
