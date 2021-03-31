@@ -8,7 +8,7 @@ Notes: Currently a beginning to a command-line interface, may evolve visions dow
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "includes/calc.h"
+#include "includes/calc.cpp"
 using namespace std;
 
 #define NewL '\n'
@@ -19,7 +19,7 @@ int main() {
     cout << "┌────────────────────────┐" << endl;
     cout << "│                        │" << endl;
     cout << "│    ⚝ FennecTerm ⚝      │" << endl;
-    cout << "│     v0.2.1-a [wip]     │" << endl;
+    cout << "│     v0.2.1-b [wip]     │" << endl;
     cout << "│      NEEDS REPAIR      │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
