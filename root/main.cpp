@@ -19,7 +19,7 @@ int main() {
     cout << "┌────────────────────────┐" << endl;
     cout << "│                        │" << endl;
     cout << "│    ⚝ FennecTerm ⚝      │" << endl;
-    cout << "│        v0.2.2          │" << endl;
+    cout << "│        v0.2.2-a        │" << endl;
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
@@ -92,7 +92,7 @@ calcpoint_b:
                 cout << NewL;
                 calc_c = (calc_a, calc_b);
                 calc_c = add(calc_a, calc_b);
-                cout << "Final Result >> " << calc_c << endl;
+                cout << "!! Final Result >> " << calc_c << endl;
                 cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
                 goto loop;
 
@@ -116,7 +116,7 @@ calcpoint_c:
 
                 cout << NewL;
                 calc_c = sub(calc_a, calc_b);
-                cout << "Final Result >> " << calc_c << endl;
+                cout << "!! Final Result >> " << calc_c << endl;
                 cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
                 goto loop;
 
@@ -139,7 +139,7 @@ calcpoint_d:
 
                 cout << NewL;
                 calc_c = multiply(calc_a, calc_b);
-                cout << "Final Result >> " << calc_c << endl;
+                cout << "!! Final Result >> " << calc_c << endl;
                 cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
                 goto loop;
 
@@ -162,7 +162,7 @@ calcpoint_e:
 
                 cout << NewL;
                 calc_c = divide(calc_a, calc_b);
-                cout << "Final Result >> " << calc_c << endl;
+                cout << "!! Final Result >> " << calc_c << endl;
                 cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
                 goto loop;
 
