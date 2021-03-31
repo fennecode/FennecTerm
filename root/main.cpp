@@ -55,7 +55,7 @@ loop:
 
             cout << "Was unable to print title. Continuing... " << endl;
 
-    }
+        }
         
     }
 
