@@ -19,7 +19,7 @@ int main() {
     cout << "┌────────────────────────┐" << endl;
     cout << "│                        │" << endl;
     cout << "│    ⚝ FennecTerm ⚝      │" << endl;
-    cout << "│        v0.2.2-a        │" << endl;
+    cout << "│        v0.2.2          │" << endl;
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
