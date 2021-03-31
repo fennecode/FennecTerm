@@ -7,7 +7,7 @@ Created by (still educationg developer) Collin, aka. "Fennecode".
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "includes/calc.cpp"
+#include "includes/calc.h"
 using namespace std;
 
 #define NewL '\n'
@@ -37,22 +37,23 @@ loop:
 
     if(temp == "help") {
 
-    string line;
-    ifstream title ("help.txt");
+        string line;
+        ifstream title ("help.txt");
 
-    if(title.is_open () ) {
+        if(title.is_open () ) {
 
-        while (! title.eof() ) {
+            while (! title.eof() ) {
 
-            getline (title,line);
-            cout << line << endl;
+                getline (title,line);
+                cout << line << endl;
 
-        }
+            }
 
-        title.close();
-    } else {
+            title.close();
+            
+        } else {
 
-        cout << "Was unable to print title. Continuing... " << endl;
+            cout << "Was unable to print title. Continuing... " << endl;
 
     }
         
