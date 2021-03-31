@@ -17,27 +17,14 @@ int calcval(int val);
 
 int main() {
 
-    // Calling for Title
-    string line;
-    ifstream title ("title.txt");
-    if(title.is_open () ) {
-
-        while (! title.eof() ) {
-
-            getline (title,line);
-            cout << line << endl;
-
-        }
-        
-        title.close();
-        
-    } else {
-
-        cout << "Was unable to print title. Continuing... " << endl;
-
-    }
-    string i;
-
+    cout << "┌────────────────────────┐" << endl;
+    cout << "│                        │" << endl;
+    cout << "│    ⚝ FennecTerm ⚝      │" << endl;
+    cout << "│      v0.2.1 [wip]        │" << endl;
+    cout << "│                        │" << endl;
+    cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
+    cout << "Developed by Collin J. Reeves" << endl;
+    cout << NewL;
 
     // User Interaction Begins Below
 
@@ -46,6 +33,7 @@ int main() {
 loop:
     cout << "=> ";
     cin >> temp;
+    /*
     if(temp != NULL) {
 
         // Jumps to user specified application (needs work)
@@ -59,6 +47,7 @@ loop:
         goto loop;
         
     }
+    */
 
     // other interactions to come soon.
 
