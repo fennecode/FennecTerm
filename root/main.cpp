@@ -1,5 +1,5 @@
 /* 
-My next major project, FennecTerm. Current Version 0.2
+My next major project, FennecTerm. Current Version 0.2.1-b
 Created by (still educationg developer) Collin, aka. "Fennecode".
 Notes: Currently a beginning to a command-line interface, may evolve visions down the road. 
 [ FORK AS YOU WISH ]
