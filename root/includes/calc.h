@@ -1,4 +1,5 @@
 #include <iostream>
+#include "calc.cpp"
 using namespace std;
 
 int add(int, int);
