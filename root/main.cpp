@@ -6,42 +6,10 @@ Created by (still educationg developer) Collin, aka. "Fennecode".
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "includes/calc.h"
+#include "includes/calc/calc.h"
 using namespace std;
 
 #define NewL '\n'
-
-
-void call_help(string help) {
-
-    string temp;
-
-    if(temp == "help") {
-
-        string line;
-        ifstream title ("help.txt");
-
-        if(title.is_open () ) {
-
-            while (! title.eof() ) {
-
-                getline (title,line);
-                cout << line << endl;
-
-            }
-
-            title.close();
-
-        } else {
-
-            cout << "Was unable to print title. Continuing... " << endl;
-
-        }
-        
-    }
-    
-}
-
 
 int main() {
 
@@ -60,181 +28,202 @@ int main() {
     // User Interaction Begins Below
     string temp;
 
+    while(1 == 1) {
+
 start:
-    cout << "FennecTerm >> ";
-    cin >> temp;
+        cout << "FennecTerm" << NewL << ">> ";
+        cin >> temp;
 
+        if(temp == "help") {
 
-    if(temp == "help") {
+            string line;
+            ifstream title ("help.txt");
 
-        string line;
-        ifstream title ("help.txt");
+            if(title.is_open () ) {
 
-        if(title.is_open () ) {
+                while (! title.eof() ) {
 
-            while (! title.eof() ) {
+                    getline (title,line);
+                    cout << line << endl;
 
-                getline (title,line);
-                cout << line << endl;
+                }
+
+                title.close();
+                goto start;
+
+            } else {
+
+                cout << "Was unable to print title. Continuing... " << endl;
 
             }
-
-            title.close();
-
-        } else {
-
-            cout << "Was unable to print title. Continuing... " << endl;
-
-        }
         
-    }
+        }
 
 
-    while(temp == "calc") {
+        if(temp == "help") {
 
-        // CALCULATOR EXTENSION
+            string line;
+            ifstream title ("help.txt");
+
+            if(title.is_open () ) {
+
+                while (! title.eof() ) {
+
+                    getline (title,line);
+                    cout << line << endl;
+
+                }
+
+                title.close();
+
+            } else {
+
+                cout << "Was unable to print title. Continuing... " << endl;
+
+            }
+        
+        }
+
+
+        while(temp == "calculator") {
+
+            // CALCULATOR EXTENSION
        
-        cout << NewL << "[ Basic Calculator ]" << endl;
+            cout << NewL << "[ Basic Calculator ]" << endl;
 
-        char calc_o; // operator
-        int calc_a;
-        int calc_b;
-        int calc_c; // result
+            char calc_o; // operator
+            int calc_a;
+            int calc_b;
+            int calc_c; // result
         
-        cout << "Number >> ";
-        cin >> calc_a;
-        cout << NewL;
+            cout << "Number" << NewL << ">> ";
+            cin >> calc_a;
 
-        while(cin.good()) {
+            while(cin.good()) {
 
-            cout << "Operator (+, -, *, /)" << NewL << ">> ";
-            cin >> calc_o;
-            cout << NewL;
+                cout << "Operator (+, -, *, /)" << NewL << ">> ";
+                cin >> calc_o;
 
-            if(calc_o == '+') {
+                if(calc_o == '+') {
 
-                cout << "Number >> ";
-                cin >> calc_b;
+                    cout << "Number" << NewL << ">> ";
+                    cin >> calc_b;
 
-                if(cin.fail()) {
+                    if(cin.fail()) {
 
-                    std::cout << NewL << "Please try again. " << endl;
+                        std::cout << NewL << "Please try again! " << endl;
                     
+                    } else {
+
+                        calc_c = (calc_a, calc_b);
+                        calc_c = add(calc_a, calc_b);
+                        cout << "Final Added Result" << NewL << "== " << calc_c << endl;
+                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        goto start;
+                    
+                    }
+
                 } else {
 
-                    cout << NewL;
-                    calc_c = (calc_a, calc_b);
-                    calc_c = add(calc_a, calc_b);
-                    cout << "!! Final Added Result >> " << calc_c << endl;
-                    cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
-                    goto start;
-                    
+                    // LEAVE THIS VOID
+
                 }
 
-            } else {
+                if(calc_o == '-') {
 
-                // LEAVE THIS VOID
+                    cout << "Number" << NewL << ">> ";
+                    cin >> calc_b;
 
-            }
+                    /*
 
-            if(calc_o == '-') {
+                    Program glitches out (starting here ^^) as I enter a char value for an int value, 
+                    but I'm trying to add value verification in case a user were to input the wrong thing -- typo -- than intended.
 
-                cout << "Number >> ";
-                cin >> calc_b; 
-                /*
-
-                Program glitches out (starting here ^^) as I enter a char value for an int value, 
-                but I'm trying to add value verification in case a user were to input the wrong thing -- typo -- than intended.
-
-                Control Structures (loops) don't seem to be doing the trick, so how do I resolve the issue so the program has proper error check?
+                    Control Structures (loops) don't seem to be doing the trick, so how do I resolve the issue so the program has proper error check?
                 
-                */
+                    */
 
-                if(cin.good()) {
+                    if(cin.fail()) {
 
-                    cout << NewL;
-                    calc_c = (calc_a, calc_b);
-                    calc_c = sub(calc_a, calc_b);
-                    cout << "!! Final Subtracted Result >> " << calc_c << endl;
-                    cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
-                    goto start;
-
-                } else if(cin.fail()) {
-
-                    std::cout << NewL << "Please try again. " << endl;
-                    break;
+                        std::cout << NewL << "Please try again! " << endl;
                     
+                    } else {
+                        calc_c = (calc_a, calc_b);
+                        calc_c = sub(calc_a, calc_b);
+                        cout << "Final Subtracted Result" << NewL << "== " << calc_c << endl;
+                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        goto start;
+                    
+                    }
+
                 } else {
 
-                    std::cout << NewL << "Please try again. " << endl;
-                    break;
-                    
-                }
-
-            } else {
-
-                // LEAVE THIS VOID
+                    // LEAVE THIS VOID
                 
-            }
-
-            if(calc_o == '*') {
-
-                cout << "Number >> ";
-                cin >> calc_b;
-
-                if(cin.fail()) {
-
-                    std::cout << NewL << "Please try again. " << endl;
-                    
-                } else {
-
-                    cout << NewL;
-                    calc_c = (calc_a, calc_b);
-                    calc_c = multiply(calc_a, calc_b);
-                    cout << "!! Final Multiplied Result >> " << calc_c << endl;
-                    cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
-                    goto start;
-                    
                 }
 
-            } else {
+                if(calc_o == '*') {
 
-                // LEAVE THIS VOID
+                    cout << "Number" << NewL << ">> ";
+                    cin >> calc_b;
 
-            }
+                    if(cin.fail()) {
 
-            if(calc_o == '/') {
-
-                cout << "Number >> ";
-                cin >> calc_b;
-
-                if(cin.fail()) {
-
-                    std::cout << NewL << "Please try again. " << endl;
+                        std::cout << NewL << "Please try again! " << endl;
                     
+                    } else {
+
+                        calc_c = (calc_a, calc_b);
+                        calc_c = add(calc_a, calc_b);
+                        cout << "Final Multiplied Result" << NewL << "== " << calc_c << endl;
+                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        goto start;
+                    
+                    }
+
                 } else {
 
-                    cout << NewL;
-                    calc_c = (calc_a, calc_b);
-                    calc_c = divide(calc_a, calc_b);
-                    cout << "!! Final Divided Result >> " << calc_c << endl;
-                    cout << NewL << "Returning to FennecTerm..." << NewL << endl; 
-                    goto start;
-                    
+                    // LEAVE THIS VOID
+
                 }
 
-            } else {
+                if(calc_o == '/') {
 
-                // LEAVE THIS VOID
+                    cout << "Number" << NewL << ">> ";
+                    cin >> calc_b;
 
-            }
+                    if(cin.fail()) {
+
+                        std::cout << NewL << "Please try again! " << endl;
+                    
+                    } else {
+
+                        calc_c = (calc_a, calc_b);
+                        calc_c = add(calc_a, calc_b);
+                        cout << "Final Divided Result" << NewL << "== " << calc_c << endl;
+                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        goto start;
+                    
+                    }
+
+                } else {
+
+                    // LEAVE THIS VOID
+
+                }
+
             
+            }
+
+        
         }
+
         
     }
 
 
     // other interactions to come soon.
     cin.get(); 
+
     
 }
