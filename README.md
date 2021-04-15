@@ -1,5 +1,6 @@
 # FennecTerm (v0.3-a)
-###### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
+#### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
+###### Project Archived | I have paused work as currently I'm just working with loop and I need to push my knowledge forth. Will return to work on the source later.
 
 
 *Created by (still educating developer) Collin, aka. "Fennec/FennecFemboi/Fennecode".*
