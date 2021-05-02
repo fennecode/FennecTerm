@@ -51,7 +51,6 @@ int main() {
     cout << NewL;
     
 
-
     // User Interaction Begins Below
     string temp;
 
@@ -150,10 +149,6 @@ interaction_beginning:
                     
                     }
 
-                } else {
-
-                    // LEAVE THIS VOID
-
                 }
 
                 if(calc_o == '-') {
@@ -163,10 +158,7 @@ interaction_beginning:
 
                     /*
 
-                    Program glitches out (starting here ^^) as I enter a char value for an int value, 
-                    but I'm trying to add value verification in case a user were to input the wrong thing -- typo -- than intended.
-
-                    Control Structures (loops) don't seem to be doing the trick, so how do I resolve the issue so the program has proper error check?
+                        Need to add error checking for improper data types.
                 
                     */
 
@@ -183,10 +175,6 @@ interaction_beginning:
                     
                     }
 
-                } else {
-
-                    // LEAVE THIS VOID
-                
                 }
 
                 if(calc_o == '*') {
@@ -208,10 +196,6 @@ interaction_beginning:
                     
                     }
 
-                } else {
-
-                    // LEAVE THIS VOID
-
                 }
 
                 if(calc_o == '/') {
@@ -232,10 +216,6 @@ interaction_beginning:
                         goto interaction_beginning;
                     
                     }
-
-                } else {
-
-                    // LEAVE THIS VOID
 
                 }
 
