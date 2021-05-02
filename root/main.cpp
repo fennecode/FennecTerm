@@ -1,8 +1,9 @@
 /* 
-My next major project, FennecTerm. Current Version 0.2.2
-Created by (still educationg developer) Collin, aka. "Fennecode".
-[ OPEN-SOURCE, FORK AS YOU WISH ]
+    The Ultimate Furry Terminal. Current Version 0.4
+    Created by (still educationg developer) Collin, aka. "Fennecode".
+    [ OPEN-SOURCE, FORK AS YOU WISH ]
 */
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -15,14 +16,40 @@ int main() {
 
     cout << "┌────────────────────────┐" << endl;
     cout << "│                        │" << endl;
-    cout << "│    ⚝ FennecTerm ⚝      │" << endl;
-    cout << "│        v0.3-a          │" << endl;
+    cout << "│   ⚝ The Ultimate ⚝     │" << endl;
+    cout << "│  ⚝ Furry Terminal ⚝    │" << endl;
+    cout << "│         v0.4           │" << endl;
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
-    cout << "Open-Source Developed by Collin" << endl;
-    cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << NewL;
+
+    string doggo;
+            ifstream dogascii ("doggo.txt");
+
+            if(dogascii.is_open () ) {
+
+                while (! dogascii.eof() ) {
+
+                    getline (dogascii,doggo);
+                    cout << doggo << endl;
+
+                }
+
+                dogascii.close();
+
+            } else {
+
+                cout << "Was unable to print title. Continuing... " << endl;
+
+            }
+
+    cout << NewL;
+    cout << "Open-Source Developed by Collin." << endl;
+    cout << "For command usage, please type 'help' and press Enter! " << endl;
+    cout << "NOTE: If you enter improper values in application calc, you may break this application. Will be fixed down the line." << endl;
+    cout << NewL;
+    
 
 
     // User Interaction Begins Below
@@ -30,8 +57,8 @@ int main() {
 
     while(1 == 1) {
 
-start:
-        cout << "FennecTerm" << NewL << ">> ";
+interaction_beginning:
+        cout << ">> ";
         cin >> temp;
 
         if(temp == "help") {
@@ -49,7 +76,7 @@ start:
                 }
 
                 title.close();
-                goto start;
+                goto interaction_beginning;
 
             } else {
 
@@ -85,7 +112,7 @@ start:
         }
 
 
-        while(temp == "calculator") {
+        while(temp == "calc") {
 
             // CALCULATOR EXTENSION
        
@@ -119,7 +146,7 @@ start:
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Added Result" << NewL << "== " << calc_c << endl;
                         cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
-                        goto start;
+                        goto interaction_beginning;
                     
                     }
 
@@ -152,7 +179,7 @@ start:
                         calc_c = sub(calc_a, calc_b);
                         cout << "Final Subtracted Result" << NewL << "== " << calc_c << endl;
                         cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
-                        goto start;
+                        goto interaction_beginning;
                     
                     }
 
@@ -177,7 +204,7 @@ start:
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Multiplied Result" << NewL << "== " << calc_c << endl;
                         cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
-                        goto start;
+                        goto interaction_beginning;
                     
                     }
 
@@ -202,7 +229,7 @@ start:
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Divided Result" << NewL << "== " << calc_c << endl;
                         cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
-                        goto start;
+                        goto interaction_beginning;
                     
                     }
 

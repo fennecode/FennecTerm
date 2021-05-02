@@ -2,5 +2,5 @@
 │  ? FennecTerm Help ?   │
 ┕━━━━━━━━━━━━━━━━━━━━━━━━┙
 !!! User Commands !!!
-- Simple Calculator >> calculator
+- Simple Calculator = calc
 - More to come!
