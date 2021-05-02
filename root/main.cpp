@@ -43,7 +43,6 @@ int main() {
 
             }
 
-    cout << "Written for Windows Console" << endl;
     cout << "Open-Source Developed by Collin." << endl;
     cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << "NOTE: If you enter improper values in application calc, you may break this application. Will be fixed down the line." << endl;
@@ -82,6 +81,14 @@ interaction_beginning:
 
             }
         
+        }
+
+        if (temp == "secrets_uwu") {
+
+            cout << "Tetris coming soon! Will roll out with Linux Support soon." << endl;
+            cout << "Currently learning how to design it for Windows Console (not preferred, but eh.." << endl;
+            cout << "At least I'm learning the logics before I completely write Tetris fully on my own for raw Linux execution." << endl;
+            
         }
 
 

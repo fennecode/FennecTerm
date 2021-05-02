@@ -1,6 +1,5 @@
 
 *.json
-*./a.out
 *.ipch
 *.db
 *.suo
