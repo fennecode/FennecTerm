@@ -22,7 +22,6 @@ int main() {
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
-    cout << NewL;
 
     string doggo;
             ifstream dogascii ("doggo.txt");
@@ -44,7 +43,6 @@ int main() {
 
             }
 
-    cout << NewL;
     cout << "Written for Windows Console" << endl;
     cout << "Open-Source Developed by Collin." << endl;
     cout << "For command usage, please type 'help' and press Enter! " << endl;
