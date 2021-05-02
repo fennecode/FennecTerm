@@ -8,7 +8,6 @@
 #include <string>
 #include <fstream>
 #include "includes/calc/calc.h"
-#include "includes/games/tetris.cpp"
 using namespace std;
 
 #define NewL '\n'
@@ -46,6 +45,7 @@ int main() {
             }
 
     cout << NewL;
+    cout << "Written for Windows Console" << endl;
     cout << "Open-Source Developed by Collin." << endl;
     cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << "NOTE: If you enter improper values in application calc, you may break this application. Will be fixed down the line." << endl;
@@ -109,12 +109,6 @@ interaction_beginning:
 
             }
         
-        }
-
-        while (temp == "calc") {
-
-
-
         }
 
 
