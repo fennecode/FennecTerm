@@ -1,4 +1,4 @@
-# UltimateFurryTerminal (previously known as FennecTerm) [v0.3-a]
+# UltimateFurryTerminal (previously known as FennecTerm) [v0.4]
 #### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
 
 *Created by (still educating developer) Halogem.*
