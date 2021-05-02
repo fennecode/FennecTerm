@@ -8,6 +8,7 @@
 #include <string>
 #include <fstream>
 #include "includes/calc/calc.h"
+#include "includes/games/tetris.cpp"
 using namespace std;
 
 #define NewL '\n'
@@ -108,6 +109,12 @@ interaction_beginning:
 
             }
         
+        }
+
+        while (temp == "calc") {
+
+
+
         }
 
 
