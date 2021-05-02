@@ -151,7 +151,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Added Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }
@@ -177,7 +177,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = sub(calc_a, calc_b);
                         cout << "Final Subtracted Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }
@@ -198,7 +198,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Multiplied Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }
@@ -219,7 +219,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Divided Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to FennecTerm..." << NewL << endl; 
+                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }
