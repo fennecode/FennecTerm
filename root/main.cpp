@@ -37,10 +37,6 @@ int main() {
 
                 dogascii.close();
 
-            } else {
-
-                cout << "Was unable to print title. Continuing... " << endl;
-
             }
 
     cout << "Open-Source Developed by Collin." << endl;
@@ -74,10 +70,6 @@ interaction_beginning:
 
                 title.close();
                 goto interaction_beginning;
-
-            } else {
-
-                cout << "Was unable to print title. Continuing... " << endl;
 
             }
         
