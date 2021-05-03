@@ -18,7 +18,7 @@ int main() {
     cout << "│                        │" << endl;
     cout << "│   ⚝ The Ultimate ⚝     │" << endl;
     cout << "│  ⚝ Furry Terminal ⚝    │" << endl;
-    cout << "│         v0.4           │" << endl;
+    cout << "│        v0.4.1          │" << endl;
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
@@ -122,7 +122,7 @@ interaction_beginning:
 
             // CALCULATOR EXTENSION
        
-            cout << NewL << "[ Basic Calculator ]" << endl;
+            cout << NewL << "         [ Basic Calculator ]" << endl;
 
             char calc_o; // operator
             int calc_a;
@@ -151,7 +151,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Added Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
+                        cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }
@@ -177,7 +177,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = sub(calc_a, calc_b);
                         cout << "Final Subtracted Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
+                        cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }
@@ -198,7 +198,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Multiplied Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
+                        cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }
@@ -219,7 +219,7 @@ interaction_beginning:
                         calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Divided Result" << NewL << "== " << calc_c << endl;
-                        cout << NewL << "!! Returning to The Ultimate Furry Terminal..." << NewL << endl; 
+                        cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
                         goto interaction_beginning;
                     
                     }

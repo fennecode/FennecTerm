@@ -1,6 +1,6 @@
-┌────────────────────────┐
-│  ? FennecTerm Help ?   │
-┕━━━━━━━━━━━━━━━━━━━━━━━━┙
-!!! User Commands !!!
+┌─────────────────────────────────────┐
+│   ? Ultimate Furry Terminal Help ?  │
+┕━━━─━━━━━━━━━━━━━━━━━━━━━────────────┙
+          [ User Commands ]
 - Simple Calculator = calc
 - More to come!
