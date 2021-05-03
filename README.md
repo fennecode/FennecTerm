@@ -1,12 +1,16 @@
-# UltimateFurryTerminal (previously known as FennecTerm) [v0.4]
-#### My CLI-shell | OPEN-SOURCE, FORK AS YOU WISH!
+# UltimateFurryTerminal [v0.4.1]
+#### My CLI-shell | OPEN-SOURCE
 
-*Created by (still educating developer) Halogem.*
+*Created by (still educating developer) Halogem. Some random app I'm making and I don't know why. lol*
 
 ## Changelog
-- Issue: Needs fixing for value verification. If (for example) "char" were input rather than "int" values accidentally, I need to work on prompting user for error, then returning to correct value.
-- Issue: Not looping back to main user interaction "FennecTerm" after entering "help" command.
-- Feature: N/A
+*New Features*
+- Finished Rebranding
+- Added a doggo to main title
+- Made program easier to read
 
-## WIP Features
-- Adding Tetris
+*WIP Features*
+- Adding Tetris soon
+
+## Issues
+- Issue: Needs fixing for value verification. If (for example) "char" were input rather than "int" values accidentally, I need to work on prompting user for error, then returning to correct value. Will fix later down the line, not important right now.
