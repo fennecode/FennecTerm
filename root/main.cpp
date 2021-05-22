@@ -101,11 +101,7 @@ interaction_beginning:
 
                 title.close();
 
-            } else {
-
-                cout << "Was unable to print title. Continuing... " << endl;
-
-            }
+           }
         
         }
 
@@ -140,7 +136,7 @@ interaction_beginning:
                     
                     } else {
 
-                        calc_c = (calc_a, calc_b);
+                        //  calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Added Result" << NewL << "== " << calc_c << endl;
                         cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
@@ -166,7 +162,7 @@ interaction_beginning:
                         std::cout << NewL << "Please try again! " << endl;
                     
                     } else {
-                        calc_c = (calc_a, calc_b);
+                        // calc_c = (calc_a, calc_b);
                         calc_c = sub(calc_a, calc_b);
                         cout << "Final Subtracted Result" << NewL << "== " << calc_c << endl;
                         cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
@@ -187,7 +183,7 @@ interaction_beginning:
                     
                     } else {
 
-                        calc_c = (calc_a, calc_b);
+                        // calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Multiplied Result" << NewL << "== " << calc_c << endl;
                         cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
@@ -208,7 +204,7 @@ interaction_beginning:
                     
                     } else {
 
-                        calc_c = (calc_a, calc_b);
+                        // calc_c = (calc_a, calc_b);
                         calc_c = add(calc_a, calc_b);
                         cout << "Final Divided Result" << NewL << "== " << calc_c << endl;
                         cout << "[!] Returning to The Ultimate Furry Terminal..." << NewL << endl; 
