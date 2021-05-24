@@ -43,11 +43,9 @@ int main() {
     cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << "NOTE: If you enter improper values in application calc, you may break this application. Will be fixed down the line." << endl;
     cout << NewL;
-    
 
     // User Interaction Begins Below
     string temp;
-
     while(1 == 1) {
 
 interaction_beginning:
@@ -84,7 +82,6 @@ interaction_beginning:
             
         }
 
-
         if(temp == "help") {
 
             string line;
@@ -104,7 +101,6 @@ interaction_beginning:
            }
         
         }
-
 
         while(temp == "calc") {
 
@@ -219,13 +215,12 @@ interaction_beginning:
 
         
         }
-
-        
+ 
     }
 
 
     // other interactions to come soon.
     cin.get(); 
 
-    
+
 }
