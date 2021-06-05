@@ -1,6 +1,6 @@
 /* 
-    The Ultimate Furry Terminal. Current Version 0.4
-    Created by (still educationg developer) Collin, aka. "Fennecode".
+    The Ultimate Furry Terminal. Current Version 0.4.1
+    Created by (still educationg developer) Aspen, aka. "Halogem".
     [ OPEN-SOURCE, FORK AS YOU WISH ]
 */
 
