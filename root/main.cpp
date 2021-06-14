@@ -1,13 +1,16 @@
 /* 
-    The Ultimate Furry Terminal. Current Version 0.4.1
+    The Ultimate Furry Terminal. Current Version 0.4.2 | Added Classes for calc Extension
     Created by (still educationg developer) Aspen, aka. "Halogem".
     [ OPEN-SOURCE, FORK AS YOU WISH ]
 */
+
+// NOT FINAL - Delete this comment after final finishing
 
 #include <iostream>
 #include <string>
 #include <fstream>
 #include "includes/calc/calc.h"
+// #include "includes/games/3ps.h"
 using namespace std;
 
 #define NewL '\n'
@@ -18,7 +21,7 @@ int main() {
     cout << "│                        │" << endl;
     cout << "│   ⚝ The Ultimate ⚝     │" << endl;
     cout << "│  ⚝ Furry Terminal ⚝    │" << endl;
-    cout << "│        v0.4.1          │" << endl;
+    cout << "│        v0.4.2          │" << endl;
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
@@ -39,12 +42,16 @@ int main() {
 
             }
 
-    cout << "Open-Source Developed by Collin." << endl;
+    cout << "Open-Source Developed by Aspen, aka. Halogem!" << endl;
     cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << "NOTE: If you enter improper values in application calc, you may break this application. Will be fixed down the line." << endl;
     cout << NewL;
 
-    // User Interaction Begins Below
+    /*
+	User Interaction
+	Begins Below!
+    */
+
     string temp;
     while(1 == 1) {
 
@@ -75,31 +82,9 @@ interaction_beginning:
 
         if (temp == "secrets_uwu") {
 
-            cout << "Tetris coming soon! Will roll out with Linux Support soon." << endl;
-            cout << "Currently learning how to design it for Windows Console (not preferred, but eh..)" << endl;
-            cout << "At least I'm learning the logics before I completely write Tetris fully on my own for raw Linux execution." << endl;
+            cout << "CLI 3PS coming soon! Will roll out with Linux Support soon." << endl;
             cout << NewL;
             
-        }
-
-        if(temp == "help") {
-
-            string line;
-            ifstream title ("help.txt");
-
-            if(title.is_open () ) {
-
-                while (! title.eof() ) {
-
-                    getline (title,line);
-                    cout << line << endl;
-
-                }
-
-                title.close();
-
-           }
-        
         }
 
         while(temp == "calc") {
@@ -215,7 +200,7 @@ interaction_beginning:
 
         
         }
- 
+	
     }
 
 
