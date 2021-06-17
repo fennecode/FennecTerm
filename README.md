@@ -1,4 +1,4 @@
-# UltimateFurryTerminal [v0.4.1]
+# UltimateFurryTerminal [v0.4.2]
 #### My CLI-shell | OPEN-SOURCE
 
 *Created by (still educating developer) Halogem. Some random app I'm making and I don't know why. lol*
