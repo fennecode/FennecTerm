@@ -82,8 +82,7 @@ interaction_beginning:
 
         if (temp == "secrets_uwu") {
 
-            cout << "CLI 3PS coming soon! Will roll out with Linux Support soon." << endl;
-            cout << NewL;
+            cout << "CLI-based 3rd Person Shooter coming soon!" << NewL << endl;
             
         }
 
