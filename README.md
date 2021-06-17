@@ -1,16 +1,17 @@
 # UltimateFurryTerminal [v0.4.2]
 #### My CLI-shell | OPEN-SOURCE
 
-*Created by (still educating developer) Halogem. Some random app I'm making and I don't know why. lol*
+*Created by (self-educating developer) Halogem "Aspen".
 
 ## Changelog
 *New Features*
 - Finished Rebranding
 - Added a doggo to main title
 - Made program easier to read
+- Fixed Typos and text
 
 *WIP Features*
-- Adding Tetris soon
+- Adding CLI-Based Third Person Shooter soon!
 
 ## Issues
-- Issue: Needs fixing for value verification. If (for example) "char" were input rather than "int" values accidentally, I need to work on prompting user for error, then returning to correct value. Will fix later down the line, not important right now.
+- N/A
