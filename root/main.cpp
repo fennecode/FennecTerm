@@ -9,10 +9,11 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "includes/calc/calc.h"
-// #include "includes/games/3ps.h"
-using namespace std;
 
+#include "includes/calc/calc.h"
+// #include "includes/games/3ps/3ps-engine.h"
+
+using namespace std;
 #define NewL '\n'
 
 int main() {
