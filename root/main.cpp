@@ -3,7 +3,6 @@
     Not final software/Alpha stages | Open-Source
     Created by (still educationg developer) Aspen, aka. "Halogem".
 */
-
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -63,12 +62,6 @@ int main() {
                 // goto interaction_beginning;
 
             }
-        }
-
-        if (temp == "secrets_uwu") {
-
-            cout << "CLI-based 3rd Person Shooter coming soon!" << NewL << endl;
-            
         }
 
         if(temp == "calc") {
