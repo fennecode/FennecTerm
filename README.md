@@ -1,17 +1,20 @@
-# UltimateFurryTerminal [v0.4.2]
+# UltimateFurryTerminal [v0.4.3 | with Errors]
 #### My CLI-shell | OPEN-SOURCE
 
 *Created by (self-educating developer) Halogem "Aspen".
 
 ## Changelog
-*New Features*
-- Finished Rebranding
-- Added a doggo to main title
+#### v0.4 New Features
+- Rebranding
+- Added a new way to interact with UltimateFurryTerminal (calc, help)
 - Made program easier to read
-- Fixed Typos and text
+- 
 
-*WIP Features*
-- Adding CLI-Based Third Person Shooter soon!
+#### WIP Features & Roadmap
+- Organizing & optimizing code.
+- 3rd Person shell-based shooter planned down the road.
 
+---
 ## Issues
-- N/A
+#### Compilation Issues
+- Whilst organizing 'txt' outputs from 'main.cpp' to '/includes/txt' section, errors keep cli application from compiling. Still experimenting for further fixes, and it's most likely regarding veriables.

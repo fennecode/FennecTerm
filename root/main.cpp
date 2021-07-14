@@ -1,20 +1,16 @@
 /*
-    The Ultimate Furry Terminal. Current Version 0.4.2
+    The Ultimate Furry Terminal | Current Version 0.4.3
+    Not final software/Alpha stages | Open-Source
     Created by (still educationg developer) Aspen, aka. "Halogem".
-    [ OPEN-SOURCE, FORK AS YOU WISH ]
 */
-
-// NOT FINAL - Delete this comment after final finishing
 
 #include <iostream>
 #include <string>
 #include <fstream>
-
 #include "includes/calc/calc_alg.h"
-// #include "includes/games/3ps/3ps-engine.h"
-
+#include "includes/txt/txt.h"
 using namespace std;
-#define NewL '\n'
+#define NewL '\n' // To simplify making new lines between multiple 'cout' phrases rather than using '\n' so many times.
 
 int main() {
 
@@ -27,6 +23,7 @@ int main() {
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
 
+/*
     string doggo;
             ifstream dogascii ("doggo.txt");
 
@@ -42,6 +39,9 @@ int main() {
                 dogascii.close();
 
             }
+*/
+
+    cout << dogart() << endl;
 
     cout << "Open-Source Developed by Aspen, aka. Halogem!" << endl;
     cout << "For command usage, please type 'help' and press Enter! " << endl;
