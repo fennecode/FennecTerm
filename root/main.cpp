@@ -10,7 +10,7 @@
 #include <string>
 #include <fstream>
 
-#include "includes/calc/calc.h"
+#include "includes/calc/calc_alg.h"
 // #include "includes/games/3ps/3ps-engine.h"
 
 using namespace std;
