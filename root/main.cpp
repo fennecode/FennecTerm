@@ -1,5 +1,5 @@
 /*
-    The Ultimate Furry Terminal. Current Version 0.4.2 | Added Classes for calc Extension
+    The Ultimate Furry Terminal. Current Version 0.4.2
     Created by (still educationg developer) Aspen, aka. "Halogem".
     [ OPEN-SOURCE, FORK AS YOU WISH ]
 */
