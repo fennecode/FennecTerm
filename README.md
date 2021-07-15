@@ -17,4 +17,4 @@
 ---
 ## Issues
 #### Compilation Issues
-- Whilst organizing 'txt' outputs from 'main.cpp' to '/includes/txt' section, errors keep cli application from compiling. Still experimenting for further fixes, and it's most likely regarding veriables.
+- N/A
