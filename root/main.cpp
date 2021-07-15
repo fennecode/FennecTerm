@@ -7,7 +7,7 @@
 #include <string>
 #include <fstream>
 #include "includes/calc/calc_alg.h"
-// #include "includes/txt/txt.h"
+// #include "includes/txt/load_txt.h"
 using namespace std;
 #define NewL '\n' // To simplify making new lines between multiple 'cout' phrases rather than using '\n' so many times.
 
