@@ -1,4 +1,4 @@
-# UltimateFurryTerminal [v0.4.3 | with Errors]
+# UltimateFurryTerminal [v0.4.3_2 | with Errors]
 #### My CLI-shell | OPEN-SOURCE
 
 *Created by (self-educating developer) Halogem "Aspen".

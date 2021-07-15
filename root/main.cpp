@@ -1,5 +1,5 @@
 /*
-    The Ultimate Furry Terminal | Current Version 0.4.3
+    The Ultimate Furry Terminal | Current Version 0.4.3_2
     Not final software/Alpha stages | Open-Source
     Created by Aspen, aka. "Halogem".
 */
