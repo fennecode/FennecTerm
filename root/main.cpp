@@ -1,7 +1,7 @@
 /*
     The Ultimate Furry Terminal | Current Version 0.4.3
     Not final software/Alpha stages | Open-Source
-    Created by (still educationg developer) Aspen, aka. "Halogem".
+    Created by Aspen, aka. "Halogem".
 */
 #include <iostream>
 #include <string>
@@ -33,7 +33,6 @@ int main() {
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
-
     cout << "Open-Source Developed by Aspen, aka. Halogem!" << endl;
     cout << "For command usage, please type 'help' and press Enter! " << endl;
     cout << "NOTE: If you enter improper values in application calc, you may break this application. Will be fixed down the line." << endl;
@@ -42,7 +41,6 @@ int main() {
     // USER INTERACTION BEGINS BELOW
     string temp;
     while(1 == 1) {
-
 // interaction_beginning:
         cout << ">> ";
         cin >> temp;
@@ -151,7 +149,6 @@ int main() {
             }
         }
     }
-
 
     // other interactions to come soon.
     cin.get(); 
