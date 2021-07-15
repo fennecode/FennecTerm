@@ -8,7 +8,6 @@
 - Rebranding
 - Added a new way to interact with UltimateFurryTerminal (calc, help)
 - Made program easier to read
-- 
 
 #### WIP Features & Roadmap
 - Organizing & optimizing code.
