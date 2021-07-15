@@ -29,7 +29,7 @@ int main() {
     cout << "│                        │" << endl;
     cout << "│   ⚝ The Ultimate ⚝     │" << endl;
     cout << "│  ⚝ Furry Terminal ⚝    │" << endl;
-    cout << "│        v0.4.2          │" << endl;
+    cout << "│        v0.4.3          │" << endl;
     cout << "│         [WIP]          │" << endl;
     cout << "│                        │" << endl;
     cout << "┕━━━━━━━━━━━━━━━━━━━━━━━━┙" << endl;
