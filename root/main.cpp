@@ -7,22 +7,13 @@
 #include <string>
 #include <fstream>
 #include "includes/calc/calc_alg.h"
-// #include "includes/txt/load_txt.h"
+// #include "txt/load_txt.h"
 using namespace std;
 #define NewL '\n' // To simplify making new lines between multiple 'cout' phrases rather than using '\n' so many times.
 
 int main() {
 
-    cout << NewL;
-    string doggo;
-        ifstream dogascii ("txt/doggo.txt");
-        if(dogascii.is_open () ) {
-            while (! dogascii.eof() ) {
-                getline (dogascii,doggo);
-                cout << doggo << endl;
-            }
-        dogascii.close();
-    }
+    // Moving doggo ASCII art to new location.
 
     cout << NewL;
     cout << "┌────────────────────────┐" << endl;
@@ -45,6 +36,13 @@ int main() {
         cout << ">> ";
         cin >> temp;
 
+        // Temporary
+        if(temp == "help") {
+            cout << "Updating Help Menu..." << endl;
+
+        }
+
+        /*
         if(temp == "help") {
             string line;
             ifstream title ("txt/help.txt");
@@ -61,6 +59,7 @@ int main() {
 
             }
         }
+        */
 
         if(temp == "calc") {
             // CALCULATOR EXTENSION       
