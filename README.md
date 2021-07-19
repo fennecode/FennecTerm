@@ -18,7 +18,7 @@
 #### Compilation Errors
 - N/A
 
-### MISC. Issues
+#### MISC. Issues
 - N/A
 
 ## FAQ
