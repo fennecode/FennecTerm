@@ -9,9 +9,8 @@
 - Added a new way to interact with UltimateFurryTerminal (calc, help)
 - Made program easier to read
 
-#### WIP Features & Roadmap
+#### WIP Features
 - Organizing & optimizing code.
-- 3rd Person shell-based shooter planned down the road.
 
 ---
 ## Issues
