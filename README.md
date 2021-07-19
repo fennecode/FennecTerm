@@ -15,5 +15,11 @@
 
 ---
 ## Issues
-#### Compilation Issues
+#### Compilation Errors
 - N/A
+
+### MISC. Issues
+- N/A
+
+## FAQ
+- *Coming Soon...*
