@@ -1,7 +1,7 @@
 # UltimateFurryTerminal [v0.4.3_2]
 #### My CLI-shell | OPEN-SOURCE
 
-*Created by (self-educating developer) Halogem "Aspen".*
+*Created by Halogem "Aspen". App mainly to excel my studies and experiment~*
 
 ## Changelog
 #### v0.4 New Features
