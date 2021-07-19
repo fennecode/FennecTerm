@@ -13,9 +13,9 @@ using namespace std;
 
 int main() {
 
-    // Moving doggo ASCII art to new location.
+    cout << NewL << "[!] Updating Doggo ASCII Art" << endl;
 
-    cout << NewL;
+    // cout << NewL;
     cout << "┌────────────────────────┐" << endl;
     cout << "│                        │" << endl;
     cout << "│   ⚝ The Ultimate ⚝     │" << endl;
