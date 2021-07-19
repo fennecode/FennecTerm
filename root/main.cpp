@@ -14,7 +14,6 @@ using namespace std;
 int main() {
 
     cout << NewL << "[!] Updating Doggo ASCII Art" << endl;
-
     // cout << NewL;
     cout << "┌────────────────────────┐" << endl;
     cout << "│                        │" << endl;
